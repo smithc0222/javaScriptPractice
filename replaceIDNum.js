@@ -1,6 +1,6 @@
 
 function reorder(arr){
-consol.log("Original input of numbers: " + arr + "<br>"+ "<br>");
+document.write("Original input of numbers: " + arr + "<br>"+ "<br>");
 var firstString=arr.toString(); // makes array arr into a string
 var splitter = firstString.split('SP'); //Splits on SP and returns array of only numbers in string form
 var drop = splitter.shift(); //Drops off first item in array which is ""
@@ -23,7 +23,7 @@ var splitString = secondString.split(',');     // splits string back into array 
 for(z=0;z<result.length;z++) { //take each item in result back to strings and concat SP to beginning
   final.push("SP" + splitString[z]); //puts SP on front of each
 }
-console.log("Ouput after reordering: " + final);
+document.write("Ouput after reordering: " + final);
 }
 
 reorder(["SP12212","SP12332","SP15434","SP18434","SP32334242","SP"]);
