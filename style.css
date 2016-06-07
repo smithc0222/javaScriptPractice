@@ -1,0 +1,31 @@
+.btn {
+  width: 160px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+body {
+  background: #3186AD;
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.jumbotron {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 20px;
+}
